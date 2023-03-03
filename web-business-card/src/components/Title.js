@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Title = () => {
   return (
-    <div>Title</div>
-  )
-}
+    <div>
+      <div className="title-wrapper">
+        <h1>Sushant Chhetry</h1>
+        <p>React developer with Java in the back pocket</p>
+      </div>
+    </div>
+  );
+};
 
-export default Title
+export default Title;
