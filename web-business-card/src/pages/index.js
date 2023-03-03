@@ -7,6 +7,8 @@ import Title from "../components/Title";
 import Projects from "../components/Projects";
 import SocialMedia from "@/components/SocialMedia";
 import Navbar from "@/components/Navbar";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -27,6 +29,8 @@ export default function Home() {
             <SocialMedia />
           </div>
         </div>
+        <Contact />
+        <Footer />
       </main>
     </>
   );
