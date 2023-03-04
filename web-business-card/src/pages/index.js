@@ -7,7 +7,7 @@ import Title from "../components/Title";
 import Projects from "../components/Projects";
 import SocialMedia from "@/components/SocialMedia";
 import Navbar from "@/components/Navbar";
-import Contact from "@/components/Contact";
+import Contact from "@/pages/post/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -23,7 +23,10 @@ export default function Home() {
           <Title />
         </div>
         <div className="body-wrapper">
-          <h2>Resume</h2>
+          <img
+            src="https://resumeworded.com/assets/images/resume-guides/financial-data-analyst.png"
+            alt="resume"
+          />
           <div className="body">
             <Projects />
             <SocialMedia />

@@ -6,7 +6,10 @@ const Navbar = () => {
     <div>
       <ul>
         <li>
-          <Link href="/post/resume">resume</Link>
+          <Link href="/post/resume">Resume</Link>
+        </li>
+        <li>
+          <Link href="/post/Contact">Contact</Link>
         </li>
       </ul>
     </div>
