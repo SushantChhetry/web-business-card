@@ -3,15 +3,9 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div>
-      <ul>
-        <li>
-          <Link href="/post/resume">Resume</Link>
-        </li>
-        <li>
-          <Link href="/post/Contact">Contact</Link>
-        </li>
-      </ul>
+    <div className="nav-wrapper">
+      <Link href="/post/resume">Resume</Link>
+      <Link href="/post/Contact">Contact</Link>
     </div>
   );
 };
