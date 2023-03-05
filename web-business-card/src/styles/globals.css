@@ -1,3 +1,11 @@
+/* Custom Properties */
+:root {
+  --first-color:#F9F54B;
+  --second-color: #8bf5fa;
+  --third-color: #3f979b;
+  --fourth-color: #205e61;
+}
+
 body {
   font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;

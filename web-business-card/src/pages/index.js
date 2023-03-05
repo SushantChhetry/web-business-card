@@ -32,7 +32,6 @@ export default function Home() {
             <SocialMedia />
           </div>
         </div>
-        <Contact />
         <Footer />
       </main>
     </>

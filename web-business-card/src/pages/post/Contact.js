@@ -1,11 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const Contact = () => {
   return (
     <div>
-      Contact
-      <Link href="/">Home</Link>
+      <Navbar />
+      <Footer />
     </div>
   );
 };
