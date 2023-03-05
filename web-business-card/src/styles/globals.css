@@ -49,4 +49,13 @@ box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
   flex-direction: row;
   justify-content: flex-start;
   padding: 10px;
+  gap:5px;
+  background: var(--fourth-color);
+}
+
+.contact, .home{
+  background-color:var(--first-color);
+  padding:0.5%;
+  color:black;
+  text-decoration: none;
 }
