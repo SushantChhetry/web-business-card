@@ -8,26 +8,31 @@ const Contact = () => {
     <div>
       <Navbar />
       <Footer />
-      <div className="form-wrapper">
-        <form>
-          <label>
-            First Name:
-            <input type="text" name="fname" />
-          </label>
-          <label>
-            Last Name:
-            <input type="text" name="lname" />
-          </label>
-          <label>
-            Email:
-            <input type="email" name="email" />
-          </label>
-          <label>
-            Messagge:
-            <textarea type="text" name="message" />
-          </label>
-          <input type="submit" value="Submit" />
-        </form>
+      <div className="contact-wrapper">
+        <div className="form-wrapper">
+          <form >
+            <label>
+              First Name:
+              <input type="text" name="fname" />
+            </label>
+            <label>
+              Last Name:
+              <input type="text" name="lname" />
+            </label>
+            <label>
+              Email:
+              <input type="email" name="email" />
+            </label>
+            <label>
+              Messagge:
+              <textarea type="text" name="message" />
+            </label>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+        <div className="misc">
+          <p>twitter scroll</p>
+        </div>
       </div>
     </div>
   );

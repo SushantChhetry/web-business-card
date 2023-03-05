@@ -9,8 +9,14 @@ import SocialMedia from "@/components/SocialMedia";
 import Navbar from "@/components/Navbar";
 import Contact from "@/pages/post/Contact";
 import Footer from "@/components/Footer";
+import { useState } from "react";
 
 export default function Home() {
+  const [nxt, setNxt] = useState(false);
+
+  const handleClick = () => {
+    setNxt(!nxt);
+  };
   return (
     <>
       <Head>
@@ -22,14 +28,20 @@ export default function Home() {
         <div className="title-wrapper">
           <Title />
         </div>
+        <br />
+        <br />
+
         <div className="body-wrapper">
           <img
             src="https://resumeworded.com/assets/images/resume-guides/financial-data-analyst.png"
             alt="resume"
           />
-          <div className="body">
-            <Projects />
-            <SocialMedia />
+          <div className="next-wrapper">
+            <button onClick={handleClick}>Next</button>
+            <div className="next">
+            {nxt ? <Projects /> : <SocialMedia />}
+            </div>
+            <button onClick={handleClick}>Next</button>
           </div>
         </div>
         <Footer />

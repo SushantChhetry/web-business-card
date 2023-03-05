@@ -27,10 +27,16 @@ html, body {
   align-items: center;
 }
 
-.body{
+.next-wrapper{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
+}
+
+.next{
+  background: var(--third-color);
+  width: 500px;
+  height: 400px;
 }
 
 img {
@@ -65,7 +71,9 @@ box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
   text-decoration: none;
 }
 
-.contact:hover{
+.contact:hover,
+.home:hover,
+.about:hover{
   
   background-color: var(--third-color);
   color:white;
