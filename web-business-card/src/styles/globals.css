@@ -6,10 +6,14 @@
   --fourth-color: #205e61;
 }
 
-body {
+html, body {
   font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   margin: 0 auto;
+  box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
   
 }
 
@@ -30,7 +34,8 @@ body {
 }
 
 img {
-  max-width: 25%;
+  padding:10px;
+  max-width: 20%;
   height: auto;
   filter: blur(1px);
 }
@@ -48,14 +53,41 @@ box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 10px;
+  padding: 10px 20px 10px;
   gap:5px;
   background: var(--fourth-color);
 }
 
-.contact, .home{
+.contact, .home, .about{
   background-color:var(--first-color);
   padding:0.5%;
   color:black;
   text-decoration: none;
+}
+
+.contact:hover{
+  
+  background-color: var(--third-color);
+  color:white;
+  border: solid wheat 0.75px;
+}
+
+.footer-wrapper{
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--fourth-color);
+    color: white;
+    text-align: center;
+}
+
+.footer-icons{
+  padding: 1%;
+}
+
+.form-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
