@@ -43,7 +43,8 @@ export default function Home() {
             </div>
             <button onClick={handleClick}>Next</button>
           </div>
-        </div>
+          
+        </div>       
         <Footer />
       </main>
     </>
